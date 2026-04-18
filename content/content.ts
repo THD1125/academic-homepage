@@ -235,8 +235,6 @@ export const siteContent: SiteContent = {
       degreeEn: "Early-entry Ph.D. Track in Quantitative Economics",
       institutionZh: "南开大学经济学院",
       institutionEn: "School of Economics, Nankai University",
-      advisorZh: "攸频",
-      advisorEn: "You Pin",
     },
     {
       start: "2013",
