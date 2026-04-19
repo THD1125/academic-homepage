@@ -609,7 +609,7 @@ export const siteContent: SiteContent = {
     googleScholar: "https://scholar.google.com/citations?user=8dxaWRoAAAAJ&hl=zh-CN",
     orcid: "https://orcid.org/0000-0002-7913-7733",
     researchGate: "",
-    ssrn: "",
+    ssrn: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7497311",
     github: "",
     departmentPage: "https://sib.swufe.edu.cn/info/1103/1663.htm",
     cvPdf: "/cv/CV_THD.pdf",
