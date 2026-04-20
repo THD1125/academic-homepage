@@ -24,18 +24,21 @@ export function ExternalLinks({
             key={key}
             className="rounded-md border border-line bg-ivory p-4 text-sm transition hover:border-forest/60"
           >
-            <span className="font-medium text-ink">{label}</span>
             {href ? (
               <a
-                className="ml-2 break-all text-forest underline decoration-line underline-offset-4 hover:text-ink"
+                className="font-medium text-forest underline decoration-line underline-offset-4 hover:text-ink"
                 href={href}
                 target="_blank"
                 rel="noreferrer"
+                title={href}
               >
-                {href}
+                {label}
               </a>
             ) : (
-              <span className="ml-2 text-muted">{emptyLabel}</span>
+              <>
+                <span className="font-medium text-ink">{label}</span>
+                <span className="ml-2 text-muted">{emptyLabel}</span>
+              </>
             )}
           </div>
         );

@@ -41,7 +41,7 @@ export default function HomePage() {
 
           <aside className="quiet-enter-delay overflow-hidden rounded-md border border-line bg-ivory shadow-lift">
             <div className="hero-mark px-6 py-7 text-white">
-              <p className="text-xs uppercase tracking-[0.26em] text-white/70">SWUFE IBS</p>
+              <p className="text-xs uppercase tracking-[0.26em] text-white/70">SWUFE SIB</p>
               <div className="mt-8 font-serif text-6xl font-semibold leading-none">THD</div>
               <p className="mt-5 max-w-[240px] text-sm leading-7 text-white/78">
                 数字经济 · 国际投资 · 创新经济
