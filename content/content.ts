@@ -249,7 +249,7 @@ export const siteContent: SiteContent = {
   ],
 
   featuredPublications: [
-        {
+    {
       authors: "Haodan Tang, Gang Xu",
       year: 2025,
       title: "Digital Wings: The Effect of Digital Technology Adoption on Market Power",
@@ -267,7 +267,7 @@ export const siteContent: SiteContent = {
       featured: true,
     },
     {
-      authors: "蒋殿春、唐浩丹",
+      authors: "蒋殿春、唐浩丹*",
       year: 2021,
       title: "数字型跨国并购：特征及驱动力",
       outlet: "《财贸经济》",
@@ -284,6 +284,15 @@ export const siteContent: SiteContent = {
       featured: true,
     },
     {
+      authors: "Ziqi Chu, Haodan Tang*, Morris Ming Liu",
+      year: 2026,
+      title: "Does U.S.-China Trade War Exacerbate Energy Poverty? Evidence from Chinese Households",
+      outlet: "Energy Policy",
+      details: "216, 115374",
+      language: "en",
+      featured: true,
+    },
+    {
       authors: "Haodan Tang, Jiaxuan Liang, Senhui Fang",
       year: 2024,
       title: "The Innovation Effect of Digital M&As: Evidence from China",
@@ -292,18 +301,17 @@ export const siteContent: SiteContent = {
       language: "en",
       featured: true,
     },
-    {
-      authors: "Haodan Tang, Senhui Fang, Dianchun Jiang",
-      year: 2022,
-      title: "The Market Value Effect of Digital Mergers and Acquisitions: Evidence from China",
-      outlet: "Economic Modelling",
-      details: "116, 106006",
-      language: "en",
-      featured: true,
-    },
   ],
 
   publications: [
+    {
+      authors: "Ziqi Chu, Haodan Tang*, Morris Ming Liu",
+      year: 2026,
+      title: "Does U.S.-China Trade War Exacerbate Energy Poverty? Evidence from Chinese Households",
+      outlet: "Energy Policy",
+      details: "216, 115374",
+      language: "en",
+    },
     {
       authors: "Haodan Tang, Kaiwen Wu, Jing Zhou",
       year: 2025,
@@ -321,14 +329,14 @@ export const siteContent: SiteContent = {
       language: "en",
     },
     {
-      authors: "海鹏、唐浩丹",
+      authors: "海鹏、唐浩丹*",
       year: 2025,
       title: "异地商会与资本跨区域流动：基于企业异地并购的视角",
       outlet: "《管理评论》",
       language: "zh",
     },
     {
-      authors: "海鹏、吴晓楠、唐浩丹",
+      authors: "海鹏、吴晓楠、唐浩丹*",
       year: 2025,
       title: "产品质量认证与企业跨区域市场进入：兼论对全国统一大市场建设的启示",
       outlet: "《宏观质量研究》",
@@ -379,14 +387,14 @@ export const siteContent: SiteContent = {
       language: "en",
     },
     {
-      authors: "方森辉、唐浩丹、蒋殿春",
+      authors: "方森辉、唐浩丹*、蒋殿春",
       year: 2022,
       title: "数字并购与企业创新——来自上市企业的证据",
       outlet: "《管理科学》",
       language: "zh",
     },
     {
-      authors: "蒋殿春、唐浩丹",
+      authors: "蒋殿春、唐浩丹*",
       year: 2021,
       title: "数字型跨国并购：特征及驱动力",
       outlet: "《财贸经济》",
@@ -394,7 +402,7 @@ export const siteContent: SiteContent = {
       notes: ["人大复印资料《世界经济导刊》2022年第1期全文转载"],
     },
     {
-      authors: "李川川、李磊、唐浩丹",
+      authors: "李川川、李磊、唐浩丹*",
       year: 2021,
       title: "服务业开放、制度质量与企业创新",
       outlet: "《云南财经大学学报》",
@@ -408,7 +416,7 @@ export const siteContent: SiteContent = {
       language: "zh",
     },
     {
-      authors: "蒋殿春、唐浩丹、方森辉",
+      authors: "蒋殿春、唐浩丹*、方森辉",
       year: 2020,
       title: "新冠疫情与中国数字经济对外投资：影响和展望",
       outlet: "《国际贸易》",

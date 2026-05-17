@@ -12,7 +12,9 @@ export const metadata: Metadata = {
 };
 
 export default function EnglishResearchPage() {
-  const englishPublications = siteContent.publications.filter((publication) => publication.language === "en");
+  const selectedEnglishPublications = siteContent.featuredPublications.filter(
+    (publication) => publication.language === "en"
+  );
 
   return (
     <SiteShell locale="en" pathname="/en/research">
@@ -25,8 +27,8 @@ export default function EnglishResearchPage() {
         <Section title="Research Interests">
           <TagList items={siteContent.researchInterests.en} />
         </Section>
-        <Section title="Selected Publications" description="The English section presents core English-language publications. The Chinese site provides a more complete list.">
-          <PublicationList publications={englishPublications} compact />
+        <Section title="Selected Publications" description="The English section presents core English-language publications. The Chinese site provides a more complete list. An asterisk (*) denotes corresponding author.">
+          <PublicationList publications={selectedEnglishPublications} compact />
         </Section>
       </main>
     </SiteShell>

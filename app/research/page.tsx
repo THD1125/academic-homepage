@@ -24,7 +24,7 @@ export default function ResearchPage() {
           <TagList items={siteContent.researchInterests.zh} />
         </Section>
 
-        <Section title="已发表论文" description="按照内容文件中的完整论文列表呈现。">
+        <Section title="已发表论文" description="按照内容文件中的完整论文列表呈现。*表示通讯作者。">
           <PublicationList publications={siteContent.publications} />
         </Section>
 

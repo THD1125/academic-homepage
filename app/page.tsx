@@ -72,7 +72,7 @@ export default function HomePage() {
           <TagList items={siteContent.researchInterests.zh} />
         </Section>
 
-        <Section title="代表性成果" description="首页展示部分代表性论文，完整列表见研究页面。">
+        <Section title="代表性成果" description="首页展示部分代表性论文，完整列表见研究页面。*表示通讯作者。">
           <PublicationList publications={siteContent.featuredPublications} compact />
           <Link className="mt-6 inline-flex text-sm font-medium text-forest hover:text-ink" href="/research">
             查看完整研究成果

@@ -14,6 +14,10 @@ export const metadata: Metadata = {
 };
 
 export default function EnglishHomePage() {
+  const selectedEnglishPublications = siteContent.featuredPublications.filter(
+    (publication) => publication.language === "en"
+  );
+
   return (
     <SiteShell locale="en" pathname="/en">
       <main>
@@ -80,8 +84,8 @@ export default function EnglishHomePage() {
           <TagList items={siteContent.researchInterests.en} />
         </Section>
 
-        <Section title="Selected Publications">
-          <PublicationList publications={siteContent.featuredPublications} compact />
+        <Section title="Selected Publications" description="An asterisk (*) denotes corresponding author.">
+          <PublicationList publications={selectedEnglishPublications} compact />
           <Link className="mt-6 inline-flex text-sm font-medium text-forest hover:text-ink" href="/en/research">
             View research
           </Link>
