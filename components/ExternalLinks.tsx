@@ -1,38 +1,37 @@
 import { siteContent } from "@/content/content";
 
 const externalLinkItems = [
-  ["googleScholar", "Google Scholar"],
-  ["orcid", "ORCID"],
-  ["researchGate", "ResearchGate"],
-  ["ssrn", "SSRN"],
-  ["github", "GitHub"],
-  ["departmentPage", "院系主页"]
+  ["googleScholar", "Google Scholar", "Google Scholar"],
+  ["orcid", "ORCID", "ORCID"],
+  ["ssrn", "SSRN", "SSRN"],
+  ["departmentPage", "院系主页", "Department Profile"]
 ] as const;
 
 export function ExternalLinks({
-  emptyLabel = "待补充"
+  emptyLabel = "待补充",
+  locale = "zh"
 }: {
   emptyLabel?: string;
+  locale?: "zh" | "en";
 }) {
   return (
-    <div className="grid gap-3 sm:grid-cols-2">
-      {externalLinkItems.map(([key, label]) => {
+    <div className="grid gap-x-10 sm:grid-cols-2">
+      {externalLinkItems.map(([key, labelZh, labelEn]) => {
         const href = siteContent.links[key];
+        const label = locale === "zh" ? labelZh : labelEn;
 
         return (
-          <div
-            key={key}
-            className="rounded-md border border-line bg-ivory p-4 text-sm transition hover:border-forest/60"
-          >
+          <div key={key} className="border-t border-line py-5 text-sm">
             {href ? (
               <a
-                className="font-medium text-forest underline decoration-line underline-offset-4 hover:text-ink"
+                className="group flex items-center justify-between gap-4 font-medium text-ink transition hover:text-forest"
                 href={href}
                 target="_blank"
                 rel="noreferrer"
                 title={href}
               >
-                {label}
+                <span>{label}</span>
+                <span aria-hidden="true" className="text-muted transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-forest">↗</span>
               </a>
             ) : (
               <>

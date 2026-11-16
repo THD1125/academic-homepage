@@ -3,11 +3,11 @@ import type { Locale } from "@/lib/site";
 
 export function CourseGrid({ courses, locale }: { courses: Course[]; locale: Locale }) {
   return (
-    <div className="grid gap-4 md:grid-cols-2">
+    <div className="grid gap-x-10 md:grid-cols-2">
       {courses.map((course) => (
         <article
           key={course.titleZh}
-          className="rounded-md border border-line bg-ivory p-5 shadow-subtle transition hover:-translate-y-0.5 hover:border-forest/60 hover:shadow-lift"
+          className="border-t border-line py-5 transition hover:border-forest"
         >
           <h3 className="text-lg font-semibold leading-7 text-ink">
             {locale === "zh" ? course.titleZh : course.titleEn}
@@ -84,11 +84,11 @@ export function EducationTimeline({
 
 export function GrantList({ grants, locale }: { grants: Grant[]; locale: Locale }) {
   return (
-    <div className="space-y-3">
+    <div className="divide-y divide-line border-t border-line">
       {grants.map((grant) => (
         <article
           key={`${grant.funderZh}-${grant.typeZh}`}
-          className="rounded-md border border-line bg-ivory p-4 transition hover:border-forest/60"
+          className="py-4"
         >
           <h3 className="font-semibold leading-7 text-ink">
             {locale === "zh" ? grant.funderZh : grant.funderEn || grant.funderZh}

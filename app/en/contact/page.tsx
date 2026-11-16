@@ -22,8 +22,8 @@ export default function EnglishContactPage() {
           description="For research and academic inquiries, please contact by email."
         />
         <Section title="Contact Information">
-          <dl className="grid gap-4 sm:grid-cols-2">
-            <div className="rounded-md border border-line bg-ivory p-5">
+          <dl className="grid gap-x-10 sm:grid-cols-2">
+            <div className="border-t border-line py-5">
               <dt className="text-sm text-muted">Email</dt>
               <dd className="mt-2 font-medium text-ink">
                 <a className="hover:text-forest" href={`mailto:${siteContent.profile.email}`}>
@@ -31,15 +31,15 @@ export default function EnglishContactPage() {
                 </a>
               </dd>
             </div>
-            <div className="rounded-md border border-line bg-ivory p-5">
+            <div className="border-t border-line py-5">
               <dt className="text-sm text-muted">Affiliation</dt>
               <dd className="mt-2 font-medium text-ink">{siteContent.profile.affiliationEn}</dd>
             </div>
-            <div className="rounded-md border border-line bg-ivory p-5">
+            <div className="border-t border-line py-5">
               <dt className="text-sm text-muted">Location</dt>
               <dd className="mt-2 font-medium text-ink">{siteContent.profile.locationEn}</dd>
             </div>
-            <div className="rounded-md border border-line bg-ivory p-5">
+            <div className="border-t border-line py-5">
               <dt className="text-sm text-muted">CV</dt>
               <dd className="mt-2 font-medium text-ink">
                 <Link className="hover:text-forest" href={siteContent.links.cvPdf}>
@@ -50,7 +50,7 @@ export default function EnglishContactPage() {
           </dl>
         </Section>
         <Section title="External Links">
-          <ExternalLinks emptyLabel="To be added" />
+          <ExternalLinks emptyLabel="To be added" locale="en" />
         </Section>
       </main>
     </SiteShell>

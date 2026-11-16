@@ -29,9 +29,9 @@ export default function ResearchPage() {
         </Section>
 
         <Section title="其他出版物">
-          <div className="space-y-4">
+          <div className="divide-y divide-line border-t border-line">
             {siteContent.otherPublications.map((item) => (
-              <article key={item.titleZh} className="rounded-md border border-line bg-white p-5">
+              <article key={item.titleZh} className="py-5">
                 <h3 className="font-semibold text-ink">{item.titleZh}</h3>
                 <p className="mt-2 leading-7 text-muted">{item.publisherZh}</p>
                 {item.roleZh ? <p className="mt-1 text-sm text-forest">{item.roleZh}</p> : null}

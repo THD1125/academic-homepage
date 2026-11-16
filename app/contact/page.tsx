@@ -20,8 +20,8 @@ export default function ContactPage() {
           description="欢迎通过电子邮件联系，也可访问下方学术主页与院系主页。"
         />
         <Section title="联系信息">
-          <dl className="grid gap-4 sm:grid-cols-2">
-            <div className="rounded-md border border-line bg-ivory p-5">
+          <dl className="grid gap-x-10 sm:grid-cols-2">
+            <div className="border-t border-line py-5">
               <dt className="text-sm text-muted">邮箱</dt>
               <dd className="mt-2 font-medium text-ink">
                 <a className="hover:text-forest" href={`mailto:${siteContent.profile.email}`}>
@@ -29,15 +29,15 @@ export default function ContactPage() {
                 </a>
               </dd>
             </div>
-            <div className="rounded-md border border-line bg-ivory p-5">
+            <div className="border-t border-line py-5">
               <dt className="text-sm text-muted">单位</dt>
               <dd className="mt-2 font-medium text-ink">{siteContent.profile.affiliationZh}</dd>
             </div>
-            <div className="rounded-md border border-line bg-ivory p-5">
+            <div className="border-t border-line py-5">
               <dt className="text-sm text-muted">所在地</dt>
               <dd className="mt-2 font-medium text-ink">{siteContent.profile.locationZh}</dd>
             </div>
-            <div className="rounded-md border border-line bg-ivory p-5">
+            <div className="border-t border-line py-5">
               <dt className="text-sm text-muted">CV</dt>
               <dd className="mt-2 font-medium text-ink">
                 <Link className="hover:text-forest" href={siteContent.links.cvPdf}>

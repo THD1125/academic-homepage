@@ -9,15 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#20262d",
-        muted: "#68727f",
-        line: "#d9d4ca",
-        paper: "#f7f5ef",
-        mist: "#e8efea",
-        forest: "#25483f",
-        brick: "#943f34",
-        ivory: "#fffdf8",
-        graphite: "#303840"
+        ink: "#17201e",
+        muted: "#66716e",
+        line: "#dbe2df",
+        paper: "#f7f9f8",
+        mist: "#edf2f0",
+        forest: "#174a3d",
+        brick: "#9a473d",
+        ivory: "#ffffff",
+        graphite: "#2e3835"
       },
       fontFamily: {
         sans: [
@@ -45,8 +45,8 @@ const config: Config = {
         ]
       },
       boxShadow: {
-        subtle: "0 12px 28px rgba(32, 38, 45, 0.06)",
-        lift: "0 18px 45px rgba(32, 38, 45, 0.10)"
+        subtle: "0 8px 24px rgba(23, 32, 30, 0.05)",
+        lift: "0 14px 34px rgba(23, 32, 30, 0.08)"
       }
     }
   },

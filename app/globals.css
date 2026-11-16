@@ -4,8 +4,8 @@
 
 :root {
   color-scheme: light;
-  background: #f7f5ef;
-  color: #20262d;
+  background: #f7f9f8;
+  color: #17201e;
 }
 
 html {
@@ -17,10 +17,8 @@ html {
 
 body {
   margin: 0;
-  background:
-    linear-gradient(180deg, rgba(231, 238, 234, 0.78) 0%, rgba(247, 245, 239, 0) 420px),
-    #f7f5ef;
-  color: #20262d;
+  background: #f7f9f8;
+  color: #17201e;
 }
 
 a {
@@ -35,12 +33,6 @@ a {
 
 .prose-readable {
   line-height: 1.86;
-}
-
-.hero-mark {
-  background:
-    linear-gradient(135deg, rgba(37, 72, 63, 0.96), rgba(32, 38, 45, 0.95)),
-    #25483f;
 }
 
 .quiet-enter {

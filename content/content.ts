@@ -145,7 +145,7 @@ export const siteContent: SiteContent = {
     email: "tanghd@swufe.edu.cn",
     locationZh: "中国·成都",
     locationEn: "Chengdu, China",
-    cvUpdated: "2026-04-18",
+    cvUpdated: "2026-11-16",
   },
 
   seo: {
@@ -532,9 +532,18 @@ export const siteContent: SiteContent = {
     "《系统工程理论与实践》",
     "China and World Economy",
     "International Review of Financial Analysis",
+    "Emerging Markets Finance and Trade (EMFT)",
+    "Financial Innovation",
   ],
 
   presentations: [
+    {
+      date: "2026.10",
+      eventZh: "中国世界经济学会2026年会",
+      eventEn: "Chinese Society of World Economics 2026 Annual Conference",
+      institutionZh: "南开大学经济学院",
+      institutionEn: "School of Economics, Nankai University",
+    },
     {
       date: "2025.06",
       eventZh: "CCER夏季论坛",

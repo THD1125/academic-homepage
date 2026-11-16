@@ -21,45 +21,39 @@ export default function EnglishHomePage() {
   return (
     <SiteShell locale="en" pathname="/en">
       <main>
-        <section className="mx-auto grid max-w-6xl gap-10 px-5 py-12 sm:px-6 sm:py-16 lg:grid-cols-[1fr_360px] lg:items-end lg:px-8">
+        <section className="mx-auto grid max-w-6xl gap-12 px-5 py-14 sm:px-6 sm:py-20 lg:grid-cols-[minmax(0,1.45fr)_minmax(260px,0.55fr)] lg:items-start lg:gap-20 lg:px-8 lg:py-24">
           <div className="quiet-enter max-w-4xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-forest">
-              Academic Homepage
+            <p className="text-xs font-semibold uppercase text-forest">
+              SWUFE · School of International Business
             </p>
             <h1 className="mt-6 font-serif text-5xl font-semibold leading-none text-ink sm:text-6xl lg:text-7xl">
               {siteContent.hero.titleEn}
             </h1>
-            <p className="mt-5 max-w-3xl text-xl leading-9 text-forest sm:text-2xl">
+            <p className="mt-5 max-w-3xl text-lg leading-8 text-forest sm:text-xl">
               {siteContent.hero.subtitleEn}
             </p>
-            <p className="prose-readable mt-7 max-w-3xl text-base text-muted sm:text-lg">
+            <p className="prose-readable mt-8 max-w-3xl border-l-2 border-forest/30 pl-5 text-base text-muted sm:text-lg">
               {siteContent.bio.homepageEn}
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-9 flex flex-wrap gap-x-7 gap-y-3 text-sm font-medium">
               <Link
                 href={siteContent.links.cvPdf}
-                className="rounded-md bg-forest px-5 py-3 text-sm font-medium text-white transition hover:-translate-y-0.5 hover:bg-ink hover:shadow-lift"
+                className="border-b border-forest pb-1 text-forest transition hover:text-ink"
               >
-                Download CV
+                Download CV ↓
               </Link>
               <Link
                 href="/en/contact"
-                className="rounded-md border border-line bg-ivory px-5 py-3 text-sm font-medium text-forest transition hover:-translate-y-0.5 hover:border-forest"
+                className="border-b border-line pb-1 text-ink transition hover:border-forest hover:text-forest"
               >
-                Contact
+                Contact →
               </Link>
             </div>
           </div>
 
-          <aside className="quiet-enter-delay overflow-hidden rounded-md border border-line bg-ivory shadow-lift">
-            <div className="hero-mark px-6 py-7 text-white">
-              <p className="text-xs uppercase tracking-[0.26em] text-white/70">SWUFE SIB</p>
-              <div className="mt-8 font-serif text-6xl font-semibold leading-none">THD</div>
-              <p className="mt-5 max-w-[250px] text-sm leading-7 text-white/78">
-                Digital economy · International investment · Innovation
-              </p>
-            </div>
-            <dl className="divide-y divide-line px-6 text-sm">
+          <aside className="quiet-enter-delay border-t-2 border-forest text-sm">
+            <p className="py-4 text-xs font-semibold uppercase text-forest">Academic Profile</p>
+            <dl className="divide-y divide-line border-b border-line">
               <div className="py-4">
                 <dt className="text-muted">Affiliation</dt>
                 <dd className="mt-1 font-medium leading-6 text-ink">{siteContent.profile.affiliationEn}</dd>

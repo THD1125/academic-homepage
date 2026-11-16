@@ -24,9 +24,9 @@ export default function EnglishCvPage() {
         <section className="mx-auto max-w-6xl px-5 pt-8 sm:px-6 lg:px-8">
           <Link
             href={siteContent.links.cvPdf}
-            className="inline-flex rounded-md bg-forest px-5 py-3 text-sm font-medium text-white transition hover:bg-ink"
+            className="inline-flex border-b border-forest pb-1 text-sm font-medium text-forest transition hover:text-ink"
           >
-            Download PDF CV
+            Download PDF CV ↓
           </Link>
         </section>
         <Section title="Academic Position">
