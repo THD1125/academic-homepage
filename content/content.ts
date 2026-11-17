@@ -181,7 +181,7 @@ export const siteContent: SiteContent = {
     shortEn:
       "Haodan Tang is a Lecturer and Master's Supervisor at the International Business School, Southwestern University of Finance and Economics. His research focuses on the digital economy, international investment, innovation economics, technology finance, and industrial economics.",
     homepageZh:
-      "唐浩丹，西南财经大学国际商学院讲师、硕士生导师。毕业于南开大学经济学院世界经济专业，获经济学博士学位，并曾于康奈尔大学 Dyson 应用经济与管理学院联合培养。其研究主要围绕数字经济、国际投资、创新经济、科技金融与产业经济展开，重点关注数字技术、企业行为与市场绩效之间的关系，以及数字化转型和跨境投资对企业竞争优势与创新活动的影响。",
+      "毕业于南开大学经济学院世界经济专业，获经济学博士学位，并曾于康奈尔大学 Dyson 应用经济与管理学院联合培养。其研究主要围绕数字经济、国际投资、创新经济、科技金融与产业经济展开，重点关注数字技术、企业行为与市场绩效之间的关系，以及数字化转型和跨境投资对企业竞争优势与创新活动的影响。",
     homepageEn:
       "Haodan Tang is a Lecturer and Master's Supervisor at the School of International Business (SIB), Southwestern University of Finance and Economics (SWUFE). He received his Ph.D. in World Economy from Nankai University and was a joint Ph.D. student at the Dyson School of Applied Economics and Management, Cornell University. His research lies at the intersection of the digital economy, international investment, innovation economics, technology finance, and industrial economics, with a particular interest in how digital technologies reshape firm behavior, market performance, innovation, and cross-border business strategy.",
   },
@@ -530,8 +530,8 @@ export const siteContent: SiteContent = {
   reviewing: [
     "《数量经济技术经济研究》",
     "《系统工程理论与实践》",
-    "China and World Economy",
-    "International Review of Financial Analysis",
+    "China and World Economy (CWE)",
+    "International Review of Financial Analysis (IRFA)",
     "Emerging Markets Finance and Trade (EMFT)",
     "Financial Innovation",
   ],
